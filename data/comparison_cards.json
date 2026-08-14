@@ -1,0 +1,82 @@
+[
+  {
+    "id": "comparison_thysanoptera_01",
+    "title": "Thrips tabaci ↔ Frankliniella occidentalis",
+    "species": [
+      "thrips_tabaci",
+      "frankliniella_occidentalis"
+    ],
+    "order": "Thysanoptera",
+    "purpose": "Confronto visivo tra due tripidi del corso",
+    "image": {
+      "id": "thysanoptera_comparison_01",
+      "file": "assets/insects/thysanoptera/thysanoptera_comparison_01.webp",
+      "stage": "adult",
+      "role": "comparison",
+      "quiz_default": false,
+      "author": "Alton N. Sparks, Jr., University of Georgia, Bugwood.org",
+      "source": "Wikimedia Commons / Bugwood",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Thrips_tabaci,_Frankliniella_occidentalis.jpg",
+      "license": "CC BY 3.0 US",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/us/",
+      "notes": "Carta comparativa: T. tabaci a sinistra, F. occidentalis a destra.",
+      "pixels": "512x768",
+      "acquired": "2026-08-14",
+      "source_batch": "thysanoptera_batch_01"
+    }
+  },
+  {
+    "id": "comparison_drosophila_suzukii_sexes",
+    "title": "Drosophila suzukii: maschio ↔ femmina",
+    "species": [
+      "drosophila_suzukii"
+    ],
+    "order": "Diptera",
+    "purpose": "Confronto tra i sessi; il maschio presenta la tipica macchia scura apicale sulle ali.",
+    "image_ref": "drosophila_suzukii_comparison_01"
+  },
+  {
+    "id": "comparison_cydia_pomonella_splendana",
+    "title": "Cydia pomonella ↔ Cydia splendana",
+    "species": [
+      "cydia_pomonella",
+      "cydia_splendana"
+    ],
+    "order": "Lepidoptera",
+    "purpose": "Allenamento comparativo tra due Tortricidae del corso.",
+    "generated_from_existing_species_images": true
+  },
+  {
+    "id": "comparison_grapholita_molesta_funebrana",
+    "title": "Grapholita molesta ↔ Grapholita funebrana",
+    "species": [
+      "grapholita_molesta",
+      "grapholita_funebrana"
+    ],
+    "order": "Lepidoptera",
+    "purpose": "Allenamento comparativo tra due tortricidi molto simili.",
+    "generated_from_existing_species_images": true
+  },
+  {
+    "id": "comparison_bemisia_trialeurodes",
+    "title": "Bemisia tabaci ↔ Trialeurodes vaporariorum",
+    "species": [
+      "bemisia_tabaci",
+      "trialeurodes_vaporariorum"
+    ],
+    "order": "Hemiptera",
+    "purpose": "Confronto tra i due Aleyrodidae presenti nel corso.",
+    "generated_from_existing_species_images": true
+  },
+  {
+    "id": "comparison_cacopsylla_pyri_pyricola",
+    "title": "Cacopsylla pyri ↔ Cacopsylla pyricola",
+    "species": [
+      "cacopsylla_pyri",
+      "cacopsylla_pyricola"
+    ],
+    "order": "Hemiptera",
+    "purpose": "Confronto diagnostico tra le due psille del pero.",
+    "generated_from_existing_species_images": true
+  }
+]

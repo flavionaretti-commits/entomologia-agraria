@@ -1,0 +1,52 @@
+[
+  {
+    "species": "Hyalesthes obsoletus",
+    "wanted": "ninfa fotografica ben identificata",
+    "priority": "media"
+  },
+  {
+    "species": "Scaphoideus titanus",
+    "wanted": "ninfa fotografica con marcature scure diagnostiche",
+    "priority": "media"
+  },
+  {
+    "species": "Cacopsylla melanoneura",
+    "wanted": "ninfa fotografica libera e ben determinata",
+    "priority": "bassa"
+  },
+  {
+    "species": "Cacopsylla picta",
+    "wanted": "ninfa fotografica libera e ben determinata",
+    "priority": "bassa"
+  },
+  {
+    "species": "Cacopsylla pruni",
+    "wanted": "ninfa fotografica libera e ben determinata",
+    "priority": "bassa"
+  },
+  {
+    "species": "Cacopsylla pyri",
+    "wanted": "foto adulta ad alta risoluzione e ninfa ben determinata",
+    "priority": "media"
+  },
+  {
+    "species": "Cacopsylla pyricola",
+    "wanted": "fotografia moderna libera dell'adulto e, idealmente, della ninfa",
+    "priority": "alta"
+  },
+  {
+    "species": "Cassida vittata",
+    "wanted": "larva fotografica sicuramente attribuita alla specie",
+    "priority": "alta"
+  },
+  {
+    "species": "Bactrocera dorsalis",
+    "wanted": "larva fotografica libera e ben documentata",
+    "priority": "alta"
+  },
+  {
+    "species": "Grapholita molesta",
+    "wanted": "fotografia moderna libera e ben documentata della larva",
+    "priority": "alta"
+  }
+]

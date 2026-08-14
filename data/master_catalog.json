@@ -1,0 +1,2432 @@
+{
+  "schema_version": "1.1",
+  "generated": "2026-08-14",
+  "purpose": "Database master per app HTML/PWA di flashcard per esame di Entomologia agraria.",
+  "totals": {
+    "orders": 5,
+    "families": 14,
+    "species": 38,
+    "visual_resources": 91,
+    "species_linked_images": 90,
+    "standalone_comparison_images": 1,
+    "quiz_default_images": 69,
+    "pending_recoveries": 10
+  },
+  "mnemonic": "FRANGE → ROSTRO → ELITRE → BILANCIERI → SQUAME",
+  "orders": {
+    "Thysanoptera": {
+      "mnemonic": "FRANGE",
+      "recognition": [
+        "Corpo molto piccolo e allungato",
+        "Ali strette con lunghe frange di setole",
+        "Apparato boccale pungente-succhiante asimmetrico"
+      ],
+      "development": "Neometabolo: uovo → larva I → larva II → propupa → pupa → adulto",
+      "oral_answer": "È un Tisanottero. Sono insetti molto piccoli e allungati, caratterizzati da ali strette provviste di lunghe frange di setole. Hanno apparato boccale pungente-succhiante asimmetrico. Lo sviluppo è neometabolo, con due stadi giovanili alimentanti seguiti da propupa e pupa inattive prima dell'adulto."
+    },
+    "Hemiptera": {
+      "mnemonic": "ROSTRO",
+      "recognition": [
+        "Apparato boccale pungente-succhiante con rostro",
+        "Stiletti mandibolari e mascellari",
+        "Heteroptera: ali anteriori tipicamente trasformate in emielitre",
+        "Auchenorrhyncha: forme mobili o saltatrici, ali spesso a tetto",
+        "Sternorrhyncha: psille, aleurodidi, afidi e cocciniglie"
+      ],
+      "development": "Generalmente eterometabolo/emi-metabolo: uovo → ninfa → adulto, senza vera pupa",
+      "oral_answer": "È un Emittero. Gli Emitteri sono caratterizzati soprattutto dall'apparato boccale pungente-succhiante, costituito da stiletti mandibolari e mascellari contenuti nel rostro. Lo sviluppo è generalmente eterometabolo, quindi senza una vera pupa. Negli Heteroptera le ali anteriori sono tipicamente trasformate in emielitre, mentre nei gruppi tradizionalmente riuniti negli Homoptera le ali sono generalmente più uniformi e spesso disposte a tetto.",
+      "taxonomy_note": "Homoptera è una classificazione tradizionale utile per il corso; nella sistematica moderna Auchenorrhyncha e Sternorrhyncha sono trattati all'interno degli Hemiptera."
+    },
+    "Coleoptera": {
+      "mnemonic": "ELITRE",
+      "recognition": [
+        "Ali anteriori trasformate in elitre sclerificate",
+        "Ali posteriori membranose",
+        "Apparato boccale masticatore nell'adulto e nella larva"
+      ],
+      "development": "Olometabolo: uovo → larva → pupa → adulto",
+      "oral_answer": "È un Coleottero. L'ordine è caratterizzato dalle ali anteriori trasformate in elitre sclerificate, che proteggono le ali posteriori membranose utilizzate per il volo. L'apparato boccale è masticatore sia nell'adulto sia nella larva. Sono insetti olometaboli, con sviluppo uovo, larva, pupa e adulto."
+    },
+    "Diptera": {
+      "mnemonic": "BILANCIERI",
+      "recognition": [
+        "Un solo paio di ali membranose funzionali",
+        "Ali posteriori trasformate in bilancieri",
+        "Nei Brachycera larve spesso vermiformi, apode e con capo ridotto"
+      ],
+      "development": "Olometabolo: uovo → larva → pupa → adulto; la pupa è spesso contenuta in un pupario",
+      "oral_answer": "È un Dittero. Gli adulti hanno un solo paio di ali membranose funzionali; le ali posteriori sono trasformate in bilancieri, organi importanti per l'equilibrio durante il volo. Sono olometaboli, quindi presentano uovo, larva, pupa e adulto. Nei Brachycera le larve sono tipicamente vermiformi e apode, con capo molto ridotto."
+    },
+    "Lepidoptera": {
+      "mnemonic": "SQUAME",
+      "recognition": [
+        "Due paia di ali generalmente ricoperte di squame",
+        "Adulto con apparato boccale succhiante-sifonante / spiritromba",
+        "Larva (bruco) con apparato masticatore, tre paia di zampe toraciche e pseudozampe addominali"
+      ],
+      "development": "Olometabolo: uovo → larva → pupa → adulto",
+      "oral_answer": "È un Lepidottero. Gli adulti possiedono generalmente due paia di ali ricoperte di squame e un apparato boccale succhiante-sifonante formato dalla spiritromba. Sono olometaboli, quindi presentano uovo, larva, pupa e adulto. La larva è il bruco, con apparato boccale masticatore, tre paia di zampe toraciche e pseudozampe addominali."
+    }
+  },
+  "species": [
+    {
+      "scientific_name": "Frankliniella occidentalis",
+      "course_name": "Frankliniella occidentalis",
+      "common_name_it": "Tripide occidentale dei fiori / tripide californiano",
+      "order": "Thysanoptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Thripidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "frankliniella_occidentalis",
+      "images": [
+        {
+          "id": "frankliniella_occidentalis_adult_01",
+          "file": "assets/insects/thysanoptera/frankliniella_occidentalis_adult_01.webp",
+          "stage": "adult",
+          "role": "primary_context",
+          "quiz_default": true,
+          "author": "Jesse Rorabaugh",
+          "source": "Wikimedia Commons / iNaturalist",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Frankliniella_occidentalis_14827630.jpg",
+          "license": "CC0 1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "notes": "Adulto su fiore con scala da 1 mm.",
+          "pixels": "1200x1053",
+          "acquired": "2026-08-14",
+          "source_batch": "thysanoptera_batch_01"
+        },
+        {
+          "id": "frankliniella_occidentalis_adult_02",
+          "file": "assets/insects/thysanoptera/frankliniella_occidentalis_adult_02.webp",
+          "stage": "adult",
+          "role": "diagnostic_closeup",
+          "quiz_default": true,
+          "author": "Frank Peairs, Colorado State University, Bugwood.org",
+          "source": "Wikimedia Commons / Bugwood",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Frankliniella_occidentalis_5364132-LGPT.jpg",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "notes": "Adulto in macro; utile per forma generale e ali.",
+          "pixels": "1200x723",
+          "acquired": "2026-08-14",
+          "source_batch": "thysanoptera_batch_01"
+        },
+        {
+          "id": "frankliniella_occidentalis_juvenile_01",
+          "file": "assets/insects/thysanoptera/frankliniella_occidentalis_juvenile_01.webp",
+          "stage": "juvenile",
+          "role": "juvenile",
+          "quiz_default": true,
+          "author": "Whitney Cranshaw, Colorado State University",
+          "source": "USDA NAL i5k / Bugwood",
+          "source_page": "https://i5k.nal.usda.gov/organism/836537",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "notes": "Stadio giovanile; la pagina USDA accredita l’immagine a Whitney Cranshaw con licenza CC BY.",
+          "pixels": "786x523",
+          "acquired": "2026-08-14",
+          "source_batch": "thysanoptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Adulto molto piccolo e allungato, con colorazione molto variabile dal giallastro al bruno.",
+        "Ali anteriori strettissime e frangiate; nelle foto macro il corpo appare più robusto di Thrips tabaci.",
+        "Antenne di 8 articoli e disposizione delle setole del capo/pronoto sono caratteri diagnostici da osservare con ingrandimento."
+      ],
+      "recognition_note": "Attenzione: la conferma di specie nei tripidi richiede spesso caratteri microscopici; colore e fotografia da soli non sono sempre sufficienti."
+    },
+    {
+      "scientific_name": "Thrips tabaci",
+      "course_name": "Thrips tabaci",
+      "common_name_it": "Tripide della cipolla",
+      "order": "Thysanoptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Thripidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "thrips_tabaci",
+      "images": [
+        {
+          "id": "thrips_tabaci_adult_01",
+          "file": "assets/insects/thysanoptera/thrips_tabaci_adult_01.webp",
+          "stage": "adult",
+          "role": "diagnostic_isolated",
+          "quiz_default": true,
+          "author": "Alton N. Sparks, Jr., University of Georgia, Bugwood.org",
+          "source": "Wikimedia Commons / Bugwood",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Thrips_tabaci.jpg",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "notes": "Adulto isolato; risoluzione originale modesta ma leggibile.",
+          "pixels": "261x529",
+          "acquired": "2026-08-14",
+          "source_batch": "thysanoptera_batch_01"
+        },
+        {
+          "id": "thrips_tabaci_juvenile_01",
+          "file": "assets/insects/thysanoptera/thrips_tabaci_juvenile_01.webp",
+          "stage": "juvenile",
+          "role": "juvenile_context",
+          "quiz_default": true,
+          "author": "Whitney Cranshaw, Colorado State University, Bugwood.org",
+          "source": "Bugwood / CABI reference",
+          "source_page": "https://www.invasive.org/browse/detail.cfm?imgnum=1243058",
+          "license": "CC BY 3.0 US",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/us/",
+          "notes": "Neanidi su foglia di cipolla; mantenere il contesto vegetale.",
+          "pixels": "768x512",
+          "acquired": "2026-08-14",
+          "source_batch": "thysanoptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Tripide piccolo e molto slanciato, di solito giallo, giallo-bruno o bruno chiaro.",
+        "Ali strette e frangiate; l'adulto tende ad avere un aspetto più sottile e uniforme rispetto a Frankliniella occidentalis.",
+        "Le antenne hanno 7 articoli: è un carattere utile soprattutto con forte ingrandimento."
+      ],
+      "recognition_note": "La distinzione certa da altri tripidi può richiedere preparato microscopico; l'ospite e il contesto aiutano ma non sostituiscono i caratteri tassonomici."
+    },
+    {
+      "scientific_name": "Aphis pomi",
+      "course_name": "Aphis pomi",
+      "common_name_it": "Afide verde del melo",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Aphidoidea",
+      "family": "Aphididae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "aphis_pomi",
+      "images": [
+        {
+          "id": "aphis_pomi_colony_01",
+          "file": "assets/insects/hemiptera/aphis_pomi_colony_01.webp",
+          "stage": "colony",
+          "role": "primary_context",
+          "quiz_default": true,
+          "author": "InfluentialPoints",
+          "source": "InfluentialPoints / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Aphis_pomi_colony_on_crab_apple_in_East_Sussex.jpg",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "notes": "Colonia su melo; molto utile per riconoscimento contestuale.",
+          "pixels": "1024x683",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        }
+      ],
+      "recognition_cues": [
+        "Afide tipicamente verde brillante, spesso riunito in colonie sui giovani germogli di melo.",
+        "Sifoni (cornicoli) e cauda sono scuri/nerastri e contrastano con il corpo verde.",
+        "Le colonie producono melata e sono spesso frequentate dalle formiche."
+      ],
+      "recognition_note": "Il verde vivo sul melo è un buon indizio, ma gli afidi possono richiedere caratteri fini per la conferma tassonomica."
+    },
+    {
+      "scientific_name": "Bemisia tabaci",
+      "course_name": "Bemisia tabaci",
+      "common_name_it": "Mosca bianca del tabacco / aleurodide",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Aleyrodoidea",
+      "family": "Aleyrodidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "bemisia_tabaci",
+      "images": [
+        {
+          "id": "bemisia_tabaci_adult_01",
+          "file": "assets/insects/hemiptera/bemisia_tabaci_adult_01.webp",
+          "stage": "adult",
+          "role": "primary_diagnostic",
+          "quiz_default": true,
+          "author": "Stephen Ausmus",
+          "source": "USDA Agricultural Research Service / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bemisia_tabaci_from_USDA_2.jpg",
+          "license": "Public domain (USDA ARS)",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Bemisia_tabaci_from_USDA_2.jpg",
+          "notes": "Adulti in macro. Fonte federale USA; pubblico dominio.",
+          "pixels": "1400x850",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        },
+        {
+          "id": "bemisia_tabaci_adult_02",
+          "file": "assets/insects/hemiptera/bemisia_tabaci_adult_02.webp",
+          "stage": "adult",
+          "role": "context",
+          "quiz_default": true,
+          "author": "Wee Hong",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bemisia_tabaci_under_leaf_of_eggplant.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Adulto sulla pagina inferiore di foglia di melanzana.",
+          "pixels": "1400x788",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        },
+        {
+          "id": "bemisia_tabaci_nymph_01",
+          "file": "assets/insects/hemiptera/bemisia_tabaci_nymph_01.webp",
+          "stage": "nymph",
+          "role": "juvenile",
+          "quiz_default": true,
+          "author": "CSIRO",
+          "source": "CSIRO ScienceImage / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_1489_Silverleaf_whitefly_Bemisia_tabaci_biotype_B.jpg",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "notes": "Ninfe sulla pagina inferiore di una foglia.",
+          "pixels": "1270x1126",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        },
+        {
+          "id": "bemisia_tabaci_puparium_01",
+          "file": "assets/insects/hemiptera/bemisia_tabaci_puparium_01.webp",
+          "stage": "puparium",
+          "role": "juvenile_diagnostic",
+          "quiz_default": false,
+          "author": "Gabriel TERRAZ",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Puparium_of_Bemisia_tabaci.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Pupario su peperone dolce; originale di risoluzione modesta, non ingrandito.",
+          "pixels": "396x380",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        }
+      ],
+      "recognition_cues": [
+        "Adulto minuscolo con corpo giallastro e ali bianche cerose.",
+        "Le ali sono tenute piuttosto inclinate e aderenti ai lati del corpo, dando una sagoma stretta; spesso resta visibile una striscia del corpo giallo.",
+        "Gli stadi fissi sono ovali e appiattiti sulla pagina inferiore delle foglie; il 'pupario' può cambiare aspetto in funzione dell'ospite."
+      ],
+      "recognition_note": "Il confronto con Trialeurodes vaporariorum è utile, ma la conferma del pupario richiede ingrandimento e caratteri microscopici."
+    },
+    {
+      "scientific_name": "Cacopsylla melanoneura",
+      "course_name": "Cacopsylla melanoneura",
+      "common_name_it": "Psilla del melo",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Psylloidea",
+      "family": "Psyllidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "cacopsylla_melanoneura",
+      "images": [
+        {
+          "id": "cacopsylla_melanoneura_female_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_melanoneura_female_01.webp",
+          "stage": "adult_female",
+          "role": "primary_adult",
+          "quiz_default": true,
+          "author": "Yerpo",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cacopsylla_melanoneura-F.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Femmina adulta su ramo di Crataegus; identificazione riportata dalla fonte.",
+          "pixels": "1011x948",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        },
+        {
+          "id": "cacopsylla_melanoneura_male_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_melanoneura_male_01.webp",
+          "stage": "adult_male",
+          "role": "adult_variant",
+          "quiz_default": true,
+          "author": "Yerpo",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cacopsylla_melanoneura-M.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Maschio adulto su ramo di Crataegus; identificazione riportata dalla fonte.",
+          "pixels": "1026x957",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        }
+      ],
+      "recognition_cues": [
+        "Psilla minuta con lunghe antenne, zampe posteriori da salto e ali trasparenti tenute a tetto.",
+        "Gli adulti maturi sono spesso bruno-scuro; gli individui giovani possono essere più chiari o verdastri.",
+        "È tipicamente associata a melo e biancospino."
+      ],
+      "recognition_note": "È una specie difficile da confermare fotograficamente: per separarla da psille simili sono spesso necessari terminalia e altri caratteri fini."
+    },
+    {
+      "scientific_name": "Cacopsylla picta",
+      "course_name": "Cacopsylla picta",
+      "common_name_it": "Psilla del melo",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Psylloidea",
+      "family": "Psyllidae",
+      "aliases": [
+        "Cacopsylla costalis"
+      ],
+      "taxonomy_notes": "Cacopsylla costalis è un sinonimo utile da riconoscere.",
+      "id": "cacopsylla_picta",
+      "images": [
+        {
+          "id": "cacopsylla_picta_female_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_picta_female_01.webp",
+          "stage": "adult_female",
+          "role": "primary_adult",
+          "quiz_default": true,
+          "author": "Yerpo",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cacopsylla_picta-F.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Femmina adulta fotografata su ramo di melo.",
+          "pixels": "1080x1218",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        },
+        {
+          "id": "cacopsylla_picta_male_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_picta_male_01.webp",
+          "stage": "adult_male",
+          "role": "adult_variant",
+          "quiz_default": true,
+          "author": "Yerpo",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cacopsylla_picta-M.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Maschio adulto fotografato su ramo di melo.",
+          "pixels": "867x996",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        }
+      ],
+      "recognition_cues": [
+        "Psilla del melo con ali ialine a tetto, lunghe antenne e silhouette slanciata.",
+        "Gli adulti possono variare dal giallo-ocra al bruno-rossastro.",
+        "L'associazione con il melo è utile per orientarsi, soprattutto nel periodo primaverile."
+      ],
+      "recognition_note": "La sola colorazione non basta: la separazione da altre Cacopsylla richiede spesso caratteri morfologici fini."
+    },
+    {
+      "scientific_name": "Cacopsylla pruni",
+      "course_name": "Cacopsylla pruni",
+      "common_name_it": "Psilla del susino",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Psylloidea",
+      "family": "Psyllidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "cacopsylla_pruni",
+      "images": [
+        {
+          "id": "cacopsylla_pruni_adult_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_pruni_adult_01.webp",
+          "stage": "adult",
+          "role": "primary_context",
+          "quiz_default": true,
+          "author": "Alberto Loschi",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:A_rest_in_the_green.jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Adulto su foglia di albicocco; macro contestuale.",
+          "pixels": "1400x700",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        }
+      ],
+      "recognition_cues": [
+        "Piccola psilla con ali trasparenti a tetto e lunghe antenne, spesso bruno-arancio nell'adulto.",
+        "Durante la stagione vegetativa è associata soprattutto a Prunus, come susino e albicocco.",
+        "Le zampe posteriori robuste e la postura da psilla la distinguono bene dagli afidi."
+      ],
+      "recognition_note": "La determinazione fotografica a livello di specie è difficile; ospite e caratteri specialistici sono importanti."
+    },
+    {
+      "scientific_name": "Cacopsylla pyri",
+      "course_name": "Cacopsylla pyri",
+      "common_name_it": "Psilla comune del pero",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Psylloidea",
+      "family": "Psyllidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "cacopsylla_pyri",
+      "images": [
+        {
+          "id": "cacopsylla_pyri_adult_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_pyri_adult_01.webp",
+          "stage": "adult",
+          "role": "primary_adult_low_resolution",
+          "quiz_default": true,
+          "author": "Mick E. Talbot",
+          "source": "Wikimedia Commons / Flickr",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Psylla_pyri.jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/",
+          "notes": "Adulto; originale 508x340 px. Non è stato effettuato upscaling; Commons segnala la qualità come modesta.",
+          "pixels": "508x340",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        },
+        {
+          "id": "cacopsylla_pyri_head_diagnostic_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_pyri_head_diagnostic_01.webp",
+          "stage": "adult_diagnostic",
+          "role": "diagnostic_head",
+          "quiz_default": false,
+          "author": "Rapisarda C., Weigand A.M., Braun P., Eickermann M. (2022)",
+          "source": "Biodiversity Data Journal / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Psylloidea_(10.3897-BDJ.10.e77571)_Figure_2.png",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Ritaglio del pannello L della Fig. 2 (strutture del capo). Immagine modificata esclusivamente tramite ritaglio.",
+          "pixels": "620x395",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        },
+        {
+          "id": "cacopsylla_pyri_forewing_diagnostic_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_pyri_forewing_diagnostic_01.webp",
+          "stage": "adult_diagnostic",
+          "role": "diagnostic_forewing",
+          "quiz_default": false,
+          "author": "Rapisarda C., Weigand A.M., Braun P., Eickermann M. (2022)",
+          "source": "Biodiversity Data Journal / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Psylloidea_(10.3897-BDJ.10.e77571)_Figure_6.png",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Ritaglio del pannello L della Fig. 6 (ala anteriore). Immagine modificata esclusivamente tramite ritaglio.",
+          "pixels": "627x320",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        }
+      ],
+      "recognition_cues": [
+        "Psilla del pero con ali trasparenti a tetto e corpo piccolo, slanciato, saltatore.",
+        "Presenta forme stagionali: gli adulti estivi sono più chiari/giallo-arancio, quelli svernanti più scuri.",
+        "Le ninfe sono appiattite, giallastre o aranciate e spesso immerse in abbondante melata sul pero."
+      ],
+      "recognition_note": "C. pyri può essere molto simile a C. pyricola; per un'identificazione certa possono servire caratteri del capo, delle ali e dei genitali."
+    },
+    {
+      "scientific_name": "Cacopsylla pyricola",
+      "course_name": "Cacopsylla pyricola",
+      "common_name_it": "Psilla del pero",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Psylloidea",
+      "family": "Psyllidae",
+      "aliases": [
+        "Psylla pyricola"
+      ],
+      "taxonomy_notes": "Le illustrazioni storiche nel lotto usano il nome Psylla pyricola.",
+      "id": "cacopsylla_pyricola",
+      "images": [
+        {
+          "id": "cacopsylla_pyricola_head_diagnostic_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_pyricola_head_diagnostic_01.webp",
+          "stage": "adult_diagnostic",
+          "role": "diagnostic_head",
+          "quiz_default": false,
+          "author": "Rapisarda C., Weigand A.M., Braun P., Eickermann M. (2022)",
+          "source": "Biodiversity Data Journal / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Psylloidea_(10.3897-BDJ.10.e77571)_Figure_2.png",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Ritaglio del pannello M della Fig. 2 (strutture del capo). Immagine modificata esclusivamente tramite ritaglio.",
+          "pixels": "620x390",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        },
+        {
+          "id": "cacopsylla_pyricola_forewing_diagnostic_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_pyricola_forewing_diagnostic_01.webp",
+          "stage": "adult_diagnostic",
+          "role": "diagnostic_forewing",
+          "quiz_default": false,
+          "author": "Rapisarda C., Weigand A.M., Braun P., Eickermann M. (2022)",
+          "source": "Biodiversity Data Journal / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Psylloidea_(10.3897-BDJ.10.e77571)_Figure_6.png",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Ritaglio del pannello M della Fig. 6 (ala anteriore). Immagine modificata esclusivamente tramite ritaglio.",
+          "pixels": "625x315",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        },
+        {
+          "id": "cacopsylla_pyricola_adult_historical_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_pyricola_adult_historical_01.webp",
+          "stage": "adult_female",
+          "role": "historical_reference",
+          "quiz_default": false,
+          "author": "C. L. Marlatt",
+          "source": "U.S. Department of Agriculture, Division of Entomology, Circular No. 7, 1895",
+          "source_page": "https://upload.wikimedia.org/wikipedia/commons/7/72/Pear-tree_psylla_%28Psylla_pyricola_Forest%29_%28IA_peartreepsyllaps27marl%29.pdf",
+          "license": "Public domain",
+          "license_url": "",
+          "notes": "Ritaglio della Fig. 1: femmina adulta. Illustrazione storica, non fotografia; non usare nel quiz fotografico standard.",
+          "pixels": "735x645",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        },
+        {
+          "id": "cacopsylla_pyricola_egg_early_juvenile_historical_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_pyricola_egg_early_juvenile_historical_01.webp",
+          "stage": "egg_and_early_juvenile",
+          "role": "historical_reference",
+          "quiz_default": false,
+          "author": "C. L. Marlatt",
+          "source": "U.S. Department of Agriculture, Division of Entomology, Circular No. 7, 1895",
+          "source_page": "https://upload.wikimedia.org/wikipedia/commons/7/72/Pear-tree_psylla_%28Psylla_pyricola_Forest%29_%28IA_peartreepsyllaps27marl%29.pdf",
+          "license": "Public domain",
+          "license_url": "",
+          "notes": "Ritaglio della Fig. 2. La didascalia storica usa il termine 'larva'; nell'app moderna classificare come stadio giovanile precoce e non usare la terminologia storica come definizione attuale.",
+          "pixels": "425x395",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        },
+        {
+          "id": "cacopsylla_pyricola_nymph_historical_01",
+          "file": "assets/insects/hemiptera/psyllidae/cacopsylla_pyricola_nymph_historical_01.webp",
+          "stage": "nymph",
+          "role": "historical_reference",
+          "quiz_default": false,
+          "author": "C. L. Marlatt",
+          "source": "U.S. Department of Agriculture, Division of Entomology, Circular No. 7, 1895",
+          "source_page": "https://upload.wikimedia.org/wikipedia/commons/7/72/Pear-tree_psylla_%28Psylla_pyricola_Forest%29_%28IA_peartreepsyllaps27marl%29.pdf",
+          "license": "Public domain",
+          "license_url": "",
+          "notes": "Ritaglio della Fig. 3: ninfa. Illustrazione storica, da usare come riferimento/approfondimento.",
+          "pixels": "420x485",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_02_cacopsylla_recovery"
+        }
+      ],
+      "recognition_cues": [
+        "Psilla del pero molto simile a Cacopsylla pyri: ali trasparenti a tetto, lunghe antenne e corpo minuto.",
+        "La colorazione dell'adulto è variabile e non è un criterio sicuro da sola.",
+        "I caratteri diagnostici più affidabili riguardano morfologia del capo, ala anteriore e terminalia."
+      ],
+      "recognition_note": "Da una fotografia generica non è prudente separare con certezza C. pyricola da specie affini: nell'app le immagini diagnostiche servono proprio a mostrare questo limite."
+    },
+    {
+      "scientific_name": "Dysaphis plantaginea",
+      "course_name": "Dysaphis plantaginea",
+      "common_name_it": "Afide grigio del melo",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Aphidoidea",
+      "family": "Aphididae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "dysaphis_plantaginea",
+      "images": [
+        {
+          "id": "dysaphis_plantaginea_adult_01",
+          "file": "assets/insects/hemiptera/dysaphis_plantaginea_adult_01.webp",
+          "stage": "adult",
+          "role": "primary_diagnostic",
+          "quiz_default": true,
+          "author": "Zapote",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Dysaphis_plantaginea_cropped.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Forma adulta su foglia; immagine già ritagliata su Commons dall’originale dello stesso autore.",
+          "pixels": "1400x1050",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        }
+      ],
+      "recognition_cues": [
+        "Afide opaco, rosa-violaceo o grigio-rosato, spesso ricoperto da una leggera pruina cerosa.",
+        "I cornicoli sono scuri; le colonie si nascondono nelle foglie di melo fortemente accartocciate.",
+        "L'attacco può accompagnarsi a foglie arrossate e frutti piccoli o deformati."
+      ],
+      "recognition_note": "Il colore rosato-grigiastro e il forte accartocciamento delle foglie di melo sono indizi molto utili in campo."
+    },
+    {
+      "scientific_name": "Eriosoma lanigerum",
+      "course_name": "Eriosoma lanigerum",
+      "common_name_it": "Afide lanigero del melo",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Aphidoidea",
+      "family": "Aphididae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "eriosoma_lanigerum",
+      "images": [
+        {
+          "id": "eriosoma_lanigerum_colony_01",
+          "file": "assets/insects/hemiptera/eriosoma_lanigerum_colony_01.webp",
+          "stage": "colony",
+          "role": "primary_diagnostic",
+          "quiz_default": true,
+          "author": "Sanjay Acharya",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Woolly_Aphids.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Colonia cerosa su melo; mostra bene il caratteristico aspetto lanoso.",
+          "pixels": "1400x933",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        }
+      ],
+      "recognition_cues": [
+        "Colonie riconoscibili per l'abbondante secrezione cerosa bianca, dall'aspetto lanoso o cotonoso.",
+        "Sotto la cera gli afidi sono bruno-rossastri o violacei.",
+        "Le colonie si formano soprattutto su corteccia, ferite, rami e talvolta radici del melo."
+      ],
+      "recognition_note": "La 'lana' cerosa è il carattere visivo più immediato dell'afide lanigero."
+    },
+    {
+      "scientific_name": "Halyomorpha halys",
+      "course_name": "Halyomorpha halys",
+      "common_name_it": "Cimice asiatica",
+      "order": "Hemiptera",
+      "suborder": "Heteroptera",
+      "superfamily": "",
+      "family": "Pentatomidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "halyomorpha_halys",
+      "images": [
+        {
+          "id": "halyomorpha_halys_adult_01",
+          "file": "assets/insects/hemiptera/halyomorpha_halys_adult_01.webp",
+          "stage": "adult",
+          "role": "primary_diagnostic",
+          "quiz_default": true,
+          "author": "Rylie.gibson",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Halyomorpha_halys_(Stål_1855).jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Adulto dorsale isolato con scala. Conversione JPEG→WebP e ridimensionamento, senza altri ritocchi.",
+          "pixels": "1200x1032",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_01"
+        },
+        {
+          "id": "halyomorpha_halys_adult_02",
+          "file": "assets/insects/hemiptera/halyomorpha_halys_adult_02.webp",
+          "stage": "adult",
+          "role": "adult_variant",
+          "quiz_default": true,
+          "author": "Lildobe",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Brown_marmorated_stink_bug.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Adulto in vista dorsale/obliqua. Conversione JPEG→WebP e ridimensionamento.",
+          "pixels": "807x1076",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_01"
+        },
+        {
+          "id": "halyomorpha_halys_nymph_01",
+          "file": "assets/insects/hemiptera/halyomorpha_halys_nymph_01.webp",
+          "stage": "nymph",
+          "role": "juvenile",
+          "quiz_default": true,
+          "author": "KENPEI",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Halyomorpha_halys(nymphs)1.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Ninfa avanzata su vegetazione. Conversione JPEG→WebP e ridimensionamento.",
+          "pixels": "1200x900",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_01"
+        },
+        {
+          "id": "halyomorpha_halys_eggs_01",
+          "file": "assets/insects/hemiptera/halyomorpha_halys_eggs_01.webp",
+          "stage": "eggs_hatching",
+          "role": "eggs_and_first_instar",
+          "quiz_default": false,
+          "author": "David R. Lance, USDA APHIS PPQ",
+          "source": "Wikimedia Commons / Invasive.org / Bugwood",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Brown_marmorated_stink_bug_eggs_hatched.jpg",
+          "license": "CC BY 3.0 US",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/us/",
+          "notes": "Ovatura schiusa e neanidi di I età. Conversione JPEG→WebP e ridimensionamento.",
+          "pixels": "1200x800",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Grande cimice a scudo, bruno-marmorizzata.",
+        "Due evidenti fasce chiare sulle antenne e fasciature chiare anche sulle zampe.",
+        "Margine dell'addome con alternanza netta di bande chiare e scure; spalle arrotondate, senza spine evidenti."
+      ],
+      "recognition_note": "La combinazione antenne fasciate + margine addominale bicolore è molto caratteristica dell'adulto."
+    },
+    {
+      "scientific_name": "Hyalesthes obsoletus",
+      "course_name": "Hyalesthes obsoletus",
+      "common_name_it": "Cixiide vettore del legno nero / stolbur",
+      "order": "Hemiptera",
+      "suborder": "Auchenorrhyncha",
+      "superfamily": "",
+      "family": "Cixiidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "hyalesthes_obsoletus",
+      "images": [
+        {
+          "id": "hyalesthes_obsoletus_adult_01",
+          "file": "assets/insects/hemiptera/hyalesthes_obsoletus_adult_01.webp",
+          "stage": "adult",
+          "role": "primary_diagnostic",
+          "quiz_default": true,
+          "author": "Michael F. Schönitzer",
+          "source": "Wikimedia Commons / Zoologische Staatssammlung München",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hyalesthes_obsoletus1.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Adulto in macro latero-dorsale. Conversione JPEG→WebP e ridimensionamento.",
+          "pixels": "1200x900",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_01"
+        },
+        {
+          "id": "hyalesthes_obsoletus_adult_02",
+          "file": "assets/insects/hemiptera/hyalesthes_obsoletus_adult_02.webp",
+          "stage": "adult",
+          "role": "adult_variant",
+          "quiz_default": true,
+          "author": "Michael F. Schönitzer",
+          "source": "Wikimedia Commons / Zoologische Staatssammlung München",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hyalesthes_obsoletus2.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Seconda vista dell'adulto. Conversione JPEG→WebP e ridimensionamento.",
+          "pixels": "1200x678",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Piccola cicalina/cixiide con corpo scuro e ali trasparenti tenute a tetto sul corpo.",
+        "Le ali mostrano una venatura molto evidente e danno all'insetto un profilo allungato.",
+        "Gli adulti sono saltatori; il contesto tipico comprende convolvolo, ortica e altre piante ospiti associate al vettore del legno nero."
+      ],
+      "recognition_note": "Diverse Cixiidae hanno aspetto molto simile: la determinazione certa di H. obsoletus può richiedere esame morfologico specialistico."
+    },
+    {
+      "scientific_name": "Icerya purchasi",
+      "course_name": "Icerya purchasi",
+      "common_name_it": "Cocciniglia cotonosa / cocciniglia australiana",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Coccoidea",
+      "family": "Monophlebidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "icerya_purchasi",
+      "images": [
+        {
+          "id": "icerya_purchasi_female_ovisac_01",
+          "file": "assets/insects/hemiptera/coccoidea/icerya_purchasi_female_ovisac_01.webp",
+          "stage": "adult_female_ovisac",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Lucarelli",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Icerya_purchasi_1.JPG",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Femmina con ovisacco, fotografata in Toscana. Conversione JPEG→WebP e ridimensionamento se necessario.",
+          "pixels": "1400x1102",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_04_coccoidea"
+        },
+        {
+          "id": "icerya_purchasi_female_ovisac_02",
+          "file": "assets/insects/hemiptera/coccoidea/icerya_purchasi_female_ovisac_02.webp",
+          "stage": "adult_female_ovisac",
+          "role": "secondary_macro",
+          "quiz_default": true,
+          "author": "Graham Wise",
+          "source": "Wikimedia Commons / Flickr",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Icerya_purchasi_(14338384298).jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/",
+          "notes": "Macro della femmina con grande ovisacco. È stato usato il thumbnail Wikimedia da 960 px e poi convertito in WebP.",
+          "pixels": "960x640",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_04_coccoidea"
+        }
+      ],
+      "recognition_cues": [
+        "Femmina rosso-aranciata con zampe e antenne scure, parzialmente coperta da cera biancastra.",
+        "Produce posteriormente un enorme ovisacco bianco, allungato e profondamente scanalato/fluttuato.",
+        "L'ovisacco può essere due o più volte lungo il corpo e rende la specie immediatamente riconoscibile."
+      ],
+      "recognition_note": "Il grande ovisacco bianco scanalato è il carattere più diagnostico sul campo."
+    },
+    {
+      "scientific_name": "Myzus cerasi",
+      "course_name": "Myzus cerasi",
+      "common_name_it": "Afide nero del ciliegio",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Aphidoidea",
+      "family": "Aphididae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "myzus_cerasi",
+      "images": [
+        {
+          "id": "myzus_cerasi_colony_01",
+          "file": "assets/insects/hemiptera/myzus_cerasi_colony_01.webp",
+          "stage": "apterous_colony",
+          "role": "primary_context",
+          "quiz_default": true,
+          "author": "S. Rae",
+          "source": "Flickr / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Myzus_cerasi_(Black_cherry_aphid)_-_Flickr_-_S._Rae.jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/",
+          "notes": "Forme attere nere in colonia su foglia.",
+          "pixels": "1400x1251",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        },
+        {
+          "id": "myzus_cerasi_alate_01",
+          "file": "assets/insects/hemiptera/myzus_cerasi_alate_01.webp",
+          "stage": "alate_adult",
+          "role": "adult_variant",
+          "quiz_default": true,
+          "author": "AfroBrazilian",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Myzus_cerasi_01.JPG",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Adulto alato.",
+          "pixels": "1024x768",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        }
+      ],
+      "recognition_cues": [
+        "Afide lucido, da bruno molto scuro a nero, con corpo relativamente compatto.",
+        "Forma colonie dense sulla pagina inferiore delle giovani foglie e sui germogli di ciliegio.",
+        "Le foglie infestate si arricciano fortemente; melata e formiche sono frequenti."
+      ],
+      "recognition_note": "Su ciliegio la combinazione colonia nera lucida + foglie fortemente arricciate è molto indicativa."
+    },
+    {
+      "scientific_name": "Myzus persicae",
+      "course_name": "Myzus persicae",
+      "common_name_it": "Afide verde del pesco",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Aphidoidea",
+      "family": "Aphididae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "myzus_persicae",
+      "images": [
+        {
+          "id": "myzus_persicae_alate_01",
+          "file": "assets/insects/hemiptera/myzus_persicae_alate_01.webp",
+          "stage": "alate_adult",
+          "role": "adult_variant",
+          "quiz_default": true,
+          "author": "Scott Bauer",
+          "source": "USDA Agricultural Research Service / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Myzus_persicae.jpg",
+          "license": "Public domain (USDA ARS)",
+          "license_url": "https://commons.wikimedia.org/wiki/File:Myzus_persicae.jpg",
+          "notes": "Adulto alato; pubblico dominio.",
+          "pixels": "640x780",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        },
+        {
+          "id": "myzus_persicae_apterous_01",
+          "file": "assets/insects/hemiptera/myzus_persicae_apterous_01.webp",
+          "stage": "apterous_adult",
+          "role": "primary_diagnostic",
+          "quiz_default": true,
+          "author": "Jules Verne Times Two",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Green_peach_aphid_(Myzus_persicae)_on_a_stem,_Lisbon,_Portugal_(approx._GPS_location)_julesvernex2.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Forme attere in macro; l’autore richiede credito visibile nelle pubblicazioni online, che l’app dovrà mostrare nella schermata crediti.",
+          "pixels": "1131x1400",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        }
+      ],
+      "recognition_cues": [
+        "Le forme attere possono essere giallastre, verde chiaro, verdi o rosate e hanno corpo ovale.",
+        "I cornicoli sono relativamente lunghi, leggermente rigonfi e spesso più scuri all'estremità.",
+        "Le forme alate hanno capo e torace scuri e un evidente campo scuro sul dorso dell'addome verde-giallastro."
+      ],
+      "recognition_note": "È una specie molto variabile nel colore: non basarsi soltanto sulla tonalità del corpo."
+    },
+    {
+      "scientific_name": "Myzus varians",
+      "course_name": "Myzus varians",
+      "common_name_it": "Afide sigaraio del pesco",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Aphidoidea",
+      "family": "Aphididae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "myzus_varians",
+      "images": [
+        {
+          "id": "myzus_varians_adult_01",
+          "file": "assets/insects/hemiptera/myzus_varians_adult_01.webp",
+          "stage": "apterous_adult",
+          "role": "primary_diagnostic",
+          "quiz_default": true,
+          "author": "Gilles San Martin",
+          "source": "iNaturalist / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Myzus_varians_-_Gilles_San_Martin_-_231543404.jpeg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Adulto attero in macro.",
+          "pixels": "1400x1050",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        },
+        {
+          "id": "myzus_varians_adult_02",
+          "file": "assets/insects/hemiptera/myzus_varians_adult_02.webp",
+          "stage": "apterous_adult",
+          "role": "adult_variant",
+          "quiz_default": true,
+          "author": "Gilles San Martin",
+          "source": "iNaturalist / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Myzus_varians_-_Gilles_San_Martin_-_231543310.jpeg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Seconda vista dell’adulto attero.",
+          "pixels": "1400x1050",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        }
+      ],
+      "recognition_cues": [
+        "Afide del pesco generalmente verde chiaro, molto simile a Myzus persicae.",
+        "Le estremità delle antenne e dei sifoni tendono a essere più scure; le forme alate presentano un'ampia area dorsale scura.",
+        "Un indizio di campo molto utile è l'arrotolamento delle foglie di pesco lungo la nervatura, con tipico aspetto 'a sigaro'."
+      ],
+      "recognition_note": "La separazione morfologica da M. persicae può richiedere osservazione ravvicinata; il danno a sigaro sul pesco è un ottimo indizio contestuale."
+    },
+    {
+      "scientific_name": "Parthenolecanium corni",
+      "course_name": "Parthenolecanium corni",
+      "common_name_it": "Lecanio / cocciniglia del corniolo",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Coccoidea",
+      "family": "Coccidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "parthenolecanium_corni",
+      "images": [
+        {
+          "id": "parthenolecanium_corni_colony_01",
+          "file": "assets/insects/hemiptera/coccoidea/parthenolecanium_corni_colony_01.webp",
+          "stage": "adult_females_colony",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Slimguy",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:2021_04_17_Parthenolecanium_corni.jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Colonia su Prunus spinosa con formiche Lasius brunneus; molto utile per il riconoscimento contestuale.",
+          "pixels": "1400x1392",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_04_coccoidea"
+        },
+        {
+          "id": "parthenolecanium_corni_colony_02",
+          "file": "assets/insects/hemiptera/coccoidea/parthenolecanium_corni_colony_02.webp",
+          "stage": "colony_context",
+          "role": "secondary_context",
+          "quiz_default": true,
+          "author": "Slimguy",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:2021_04_10_Ameisen.jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Immagine contestuale con formiche e cocciniglie sul ramo; utile come carta supplementare, non come foto diagnostica principale.",
+          "pixels": "1400x933",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_04_coccoidea"
+        }
+      ],
+      "recognition_cues": [
+        "Femmina adulta ovale o tondeggiante, marrone, con profilo molto convesso a cupola.",
+        "L'aspetto è coriaceo e può variare molto con età e pianta ospite.",
+        "A differenza delle Pulvinaria non presenta un vistoso ovisacco bianco che sporge posteriormente."
+      ],
+      "recognition_note": "La forma e il colore sono variabili; una femmina bruna fortemente convessa sul ramo è l'aspetto più tipico."
+    },
+    {
+      "scientific_name": "Pulvinaria hydrangeae",
+      "course_name": "Eupulvinaria hydrangeae",
+      "common_name_it": "Pulvinaria dell’ortensia",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Coccoidea",
+      "family": "Coccidae",
+      "aliases": [
+        "Eupulvinaria hydrangeae"
+      ],
+      "taxonomy_notes": "Nell'app il nome del corso va mantenuto ben visibile; Pulvinaria hydrangeae è il nome preferito corrente.",
+      "id": "pulvinaria_hydrangeae",
+      "images": [
+        {
+          "id": "pulvinaria_hydrangeae_female_01",
+          "file": "assets/insects/hemiptera/coccoidea/pulvinaria_hydrangeae_female_01.webp",
+          "stage": "adult_female",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Igor Balashov",
+          "source": "Wikimedia Commons / iNaturalist",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Pulvinaria_hydrangeae_285909052.jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Nome attuale: Pulvinaria hydrangeae; nella scheda del corso compare Eupulvinaria hydrangeae. Foto verificata da iNaturalistReviewBot su Commons.",
+          "pixels": "1050x1400",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_04_coccoidea"
+        },
+        {
+          "id": "pulvinaria_hydrangeae_female_ovisac_02",
+          "file": "assets/insects/hemiptera/coccoidea/pulvinaria_hydrangeae_female_ovisac_02.webp",
+          "stage": "adult_female_ovisac",
+          "role": "secondary",
+          "quiz_default": true,
+          "author": "gbohne",
+          "source": "Wikimedia Commons / Flickr",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Pulvinaria_hydrangeae_(Hemiptera-_Coccidae)_(10958921753).jpg",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "notes": "La pagina sorgente esplicita il sinonimo di genere Eupulvinaria; utile per collegare la nomenclatura moderna a quella del corso.",
+          "pixels": "1050x1400",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_04_coccoidea"
+        }
+      ],
+      "recognition_cues": [
+        "Femmina ovale o quasi circolare, giallo-bruna da giovane e più scura con l'età.",
+        "Produce sotto e dietro il corpo un lungo ovisacco bianco, soffice e cotonoso.",
+        "L'ovisacco è largo, poco profondamente solcato e può essere 2–3 volte la lunghezza della femmina."
+      ],
+      "recognition_note": "Nella scheda del corso può comparire come Eupulvinaria hydrangeae."
+    },
+    {
+      "scientific_name": "Saissetia oleae",
+      "course_name": "Saissetia oleae",
+      "common_name_it": "Cocciniglia nera dell’olivo / mezzo grano di pepe",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Coccoidea",
+      "family": "Coccidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "saissetia_oleae",
+      "images": [
+        {
+          "id": "saissetia_oleae_female_01",
+          "file": "assets/insects/hemiptera/coccoidea/saissetia_oleae_female_01.webp",
+          "stage": "adult_female",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Toby Hudson",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Saissetia_oleae.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Adulti su ramo di limone; buona visibilità della forma dorsale.",
+          "pixels": "1305x1400",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_04_coccoidea"
+        },
+        {
+          "id": "saissetia_oleae_female_02",
+          "file": "assets/insects/hemiptera/coccoidea/saissetia_oleae_female_02.webp",
+          "stage": "adult_female",
+          "role": "secondary",
+          "quiz_default": true,
+          "author": "Eric.Coffinet",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Olivier_cochenille-noire1.jpg",
+          "license": "Public domain",
+          "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "notes": "Immagine a bassa risoluzione ma utile come seconda variante; autore l’ha rilasciata nel pubblico dominio.",
+          "pixels": "405x254",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_04_coccoidea"
+        }
+      ],
+      "recognition_cues": [
+        "Femmina adulta molto convessa, da bruno scuro a quasi nera, aderente a rami e foglie.",
+        "Sul dorso è presente il caratteristico rilievo a forma di H.",
+        "È frequente su olivo e agrumi; gli stadi giovani sono molto più chiari dell'adulto."
+      ],
+      "recognition_note": "La cresta dorsale a H è il segno visivo più utile della cocciniglia nera dell'olivo."
+    },
+    {
+      "scientific_name": "Scaphoideus titanus",
+      "course_name": "Scaphoideus titanus",
+      "common_name_it": "Cicalina della flavescenza dorata / scafoideo",
+      "order": "Hemiptera",
+      "suborder": "Auchenorrhyncha",
+      "superfamily": "",
+      "family": "Cicadellidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "scaphoideus_titanus",
+      "images": [
+        {
+          "id": "scaphoideus_titanus_adult_01",
+          "file": "assets/insects/hemiptera/scaphoideus_titanus_adult_01.webp",
+          "stage": "adult_female",
+          "role": "primary_context",
+          "quiz_default": true,
+          "author": "Yerpo",
+          "source": "Wikimedia Commons / Fondazione Edmund Mach",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Scaphoideus_titanus_F.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Femmina adulta su foglia di vite. Conversione JPEG→WebP e ridimensionamento.",
+          "pixels": "1200x903",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_01"
+        },
+        {
+          "id": "scaphoideus_titanus_adult_02",
+          "file": "assets/insects/hemiptera/scaphoideus_titanus_adult_02.webp",
+          "stage": "adult",
+          "role": "diagnostic_isolated",
+          "quiz_default": true,
+          "author": "Lamiot",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:ScaphoideusTitanusP.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Adulto isolato, risoluzione originale modesta. Conversione JPEG→WebP, nessun upscaling.",
+          "pixels": "348x652",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_01"
+        },
+        {
+          "id": "scaphoideus_titanus_mating_01",
+          "file": "assets/insects/hemiptera/scaphoideus_titanus_mating_01.webp",
+          "stage": "adult_pair",
+          "role": "supplementary_behavior",
+          "quiz_default": false,
+          "author": "Yerpo",
+          "source": "Wikimedia Commons / Fondazione Edmund Mach",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Scaphoideus_titanus_mating.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Coppia in accoppiamento su foglia di vite (maschio sopra, femmina sotto). Conversione JPEG→WebP e ridimensionamento.",
+          "pixels": "1178x1200",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Adulto di circa 5–6 mm, cuneiforme, color ocra-bruno con macchie e bande più scure.",
+        "Ali anteriori brunastre e screziate, ripiegate a tetto; aspetto tipico da cicalina.",
+        "Nelle ninfe il segno più utile è la coppia di macchie nere, quasi romboidali, all'estremità dell'addome."
+      ],
+      "recognition_note": "La presenza su vite è un indizio importante; le due macchie nere terminali sono particolarmente utili negli stadi giovanili."
+    },
+    {
+      "scientific_name": "Trialeurodes vaporariorum",
+      "course_name": "Trialeurodes vaporariorum",
+      "common_name_it": "Mosca bianca / aleurodide delle serre",
+      "order": "Hemiptera",
+      "suborder": "Sternorrhyncha",
+      "superfamily": "Aleyrodoidea",
+      "family": "Aleyrodidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "trialeurodes_vaporariorum",
+      "images": [
+        {
+          "id": "trialeurodes_vaporariorum_adult_01",
+          "file": "assets/insects/hemiptera/trialeurodes_vaporariorum_adult_01.webp",
+          "stage": "adult",
+          "role": "primary_diagnostic",
+          "quiz_default": true,
+          "author": "Dr. Guido Bohne",
+          "source": "iNaturalist / Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Trialeurodes_vaporariorum_34941498.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Adulto isolato, ottimo per confronto con Bemisia tabaci.",
+          "pixels": "1200x900",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        },
+        {
+          "id": "trialeurodes_vaporariorum_juvenile_01",
+          "file": "assets/insects/hemiptera/trialeurodes_vaporariorum_juvenile_01.webp",
+          "stage": "juvenile",
+          "role": "juvenile_diagnostic",
+          "quiz_default": true,
+          "author": "Tashkoskip",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Larva_of_Trialeurodes_vaporariorum.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Tavola fotografica dello stadio giovanile. Il file sorgente usa il termine “larva”; nell’app lo etichettiamo genericamente come stadio giovanile/ninfale.",
+          "pixels": "1400x1050",
+          "acquired": "2026-08-14",
+          "source_batch": "hemiptera_batch_03_aleyrodidae_aphididae"
+        }
+      ],
+      "recognition_cues": [
+        "Adulto interamente biancastro, con ali cerose che formano una sagoma più larga e triangolare.",
+        "Rispetto a Bemisia tabaci, le ali tendono a essere tenute più piatte e meno aderenti al corpo.",
+        "Il pupario è ovale e può mostrare margini più rilevati e una frangia cerosa ben visibile."
+      ],
+      "recognition_note": "Per distinguere con sicurezza i pupari degli aleurodidi servono spesso caratteri osservabili a forte ingrandimento."
+    },
+    {
+      "scientific_name": "Cassida vittata",
+      "course_name": "Cassida vittata",
+      "common_name_it": "Cassida della bietola",
+      "order": "Coleoptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Chrysomelidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "cassida_vittata",
+      "images": [
+        {
+          "id": "cassida_vittata_adult_01",
+          "file": "assets/insects/coleoptera/cassida_vittata_adult_01.webp",
+          "stage": "adult",
+          "role": "primary_context",
+          "quiz_default": true,
+          "author": "J. Coelho",
+          "source": "Wikimedia Commons / Flickr",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cassidavittata.png",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/",
+          "notes": "Adulto vivo in contesto naturale.",
+          "pixels": "800x600",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        },
+        {
+          "id": "cassida_vittata_adult_diagnostic_01",
+          "file": "assets/insects/coleoptera/cassida_vittata_adult_diagnostic_01.webp",
+          "stage": "adult",
+          "role": "diagnostic",
+          "quiz_default": false,
+          "author": "URSchmidt (U. Schmidt)",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cassida_vittata_Villers,_1789.png",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Esemplare isolato/determinato; utile come immagine diagnostica. La larva di C. vittata resta pending.",
+          "pixels": "1400x1033",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Piccolo coleottero 'a tartaruga', appiattito e quasi circolare, con pronoto ed elitre allargati a scudo.",
+        "Da vivo è giallo o verde pallido, spesso con una banda longitudinale dorato-argentea sulle elitre.",
+        "Il margine dello scudo nasconde in parte capo e zampe quando l'insetto è visto dall'alto."
+      ],
+      "recognition_note": "Può ricordare altre Cassida, in particolare C. nobilis; la foto dell'adulto è ottima per memorizzare la tipica forma a scudo."
+    },
+    {
+      "scientific_name": "Crioceris asparagi",
+      "course_name": "Crioceris asparagi",
+      "common_name_it": "Criocera dell’asparago",
+      "order": "Coleoptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Chrysomelidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "crioceris_asparagi",
+      "images": [
+        {
+          "id": "crioceris_asparagi_adult_01",
+          "file": "assets/insects/coleoptera/crioceris_asparagi_adult_01.webp",
+          "stage": "adult",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Slimguy",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:2024_08_17_Crioceris_asparagi.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Adulto su asparago.",
+          "pixels": "1003x880",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        },
+        {
+          "id": "crioceris_asparagi_larva_01",
+          "file": "assets/insects/coleoptera/crioceris_asparagi_larva_01.webp",
+          "stage": "larva",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Hectonichus",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Chrysomelidae_-_Crioceris_asparagi_(larva).JPG",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Larva fotografata a Genova.",
+          "pixels": "1061x795",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        },
+        {
+          "id": "crioceris_asparagi_eggs_01",
+          "file": "assets/insects/coleoptera/crioceris_asparagi_eggs_01.webp",
+          "stage": "eggs",
+          "role": "supplementary",
+          "quiz_default": false,
+          "author": "Vmenkov",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Asparagus_beetle_-_eggs_-_P1000034.JPG",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Uova deposte sullo stelo di asparago.",
+          "pixels": "1400x1050",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Adulto stretto e allungato, blu-nero metallico con torace rossastro.",
+        "Sulle elitre scure compaiono vistose macchie crema/giallastre con margini rossastri.",
+        "Larva tozza e gibbosa, grigio-bruna, con capo e zampe neri; uova scure e allungate disposte quasi verticalmente sull'asparago."
+      ],
+      "recognition_note": "Non confonderla con la criocera macchiata: C. asparagi è scura con macchie chiare, non arancio con punti neri."
+    },
+    {
+      "scientific_name": "Diabrotica virgifera virgifera",
+      "course_name": "Diabrotica virgifera virgifera",
+      "common_name_it": "Diabrotica del mais",
+      "order": "Coleoptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Chrysomelidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "diabrotica_virgifera_virgifera",
+      "images": [
+        {
+          "id": "diabrotica_virgifera_virgifera_adult_01",
+          "file": "assets/insects/coleoptera/diabrotica_virgifera_virgifera_adult_01.webp",
+          "stage": "adult",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Whitney Cranshaw, Colorado State University",
+          "source": "Wikimedia Commons / IPM Images / Bugwood",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Diabrotica_virgifera_virgifera_on_cabbage.jpg",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "notes": "Adulto su foglia.",
+          "pixels": "1400x933",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        },
+        {
+          "id": "diabrotica_virgifera_virgifera_larva_01",
+          "file": "assets/insects/coleoptera/diabrotica_virgifera_virgifera_larva_01.webp",
+          "stage": "larva",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Scott Bauer, USDA Agricultural Research Service",
+          "source": "Wikimedia Commons / IPM Images / Bugwood",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Diabrotica_virgifera_virgifera_larvae.jpg",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "notes": "Larva radicale.",
+          "pixels": "1400x897",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Adulto piccolo e allungato, con capo scuro, pronoto giallo e elitre giallastre.",
+        "Sulle elitre sono tipiche tre bande longitudinali scure; nel maschio possono fondersi e occupare gran parte della superficie.",
+        "La larva è sottile, bianco-crema, con capsula cefalica bruna e una piccola placca scura all'estremità posteriore; vive presso le radici del mais."
+      ],
+      "recognition_note": "Il motivo giallo-nero dell'adulto e il contesto del mais sono ottimi indizi."
+    },
+    {
+      "scientific_name": "Leptinotarsa decemlineata",
+      "course_name": "Leptinotarsa decemlineata",
+      "common_name_it": "Dorifora della patata",
+      "order": "Coleoptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Chrysomelidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "leptinotarsa_decemlineata",
+      "images": [
+        {
+          "id": "leptinotarsa_decemlineata_adult_01",
+          "file": "assets/insects/coleoptera/leptinotarsa_decemlineata_adult_01.webp",
+          "stage": "adult",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "xpda (Robert Webster)",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Leptinotarsa_decemlineata_P1310927a.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Adulto su pianta.",
+          "pixels": "1400x1156",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        },
+        {
+          "id": "leptinotarsa_decemlineata_larva_01",
+          "file": "assets/insects/coleoptera/leptinotarsa_decemlineata_larva_01.webp",
+          "stage": "larva",
+          "role": "primary_macro",
+          "quiz_default": true,
+          "author": "Retro Lenses",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:The_Colorado_potato_beetle_(Leptinotarsa_decemlineata).jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Macro della larva ottenuta mediante focus stacking.",
+          "pixels": "1400x959",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        },
+        {
+          "id": "leptinotarsa_decemlineata_eggs_01",
+          "file": "assets/insects/coleoptera/leptinotarsa_decemlineata_eggs_01.webp",
+          "stage": "eggs",
+          "role": "supplementary",
+          "quiz_default": false,
+          "author": "Tauno Erik",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Leptinotarsa_decemlineata_eggs_estonia_01.JPG",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Ovatura sulla pagina inferiore di una foglia.",
+          "pixels": "1400x1003",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Adulto tondeggiante giallo-arancio con 10 nettissime strisce nere longitudinali sulle elitre.",
+        "Pronoto arancio con numerose macchie nere.",
+        "Larva molle e molto convessa, rosso-arancio, con capo nero e due file di macchie nere su ciascun lato."
+      ],
+      "recognition_note": "Le 10 strisce nere dell'adulto sono il carattere più immediato della dorifora."
+    },
+    {
+      "scientific_name": "Popillia japonica",
+      "course_name": "Popillia japonica",
+      "common_name_it": "Coleottero / scarabeo giapponese",
+      "order": "Coleoptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Scarabaeidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "popillia_japonica",
+      "images": [
+        {
+          "id": "popillia_japonica_adult_01",
+          "file": "assets/insects/coleoptera/popillia_japonica_adult_01.webp",
+          "stage": "adult",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Bruce Marlin",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Popillia_japonica.jpg",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "notes": "Adulto in macro su fiore.",
+          "pixels": "1400x1400",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        },
+        {
+          "id": "popillia_japonica_larva_01",
+          "file": "assets/insects/coleoptera/popillia_japonica_larva_01.webp",
+          "stage": "larva",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Gilles San Martin",
+          "source": "Wikimedia Commons / Flickr",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Popillia_japonica_(51136409324).jpg",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "notes": "Larva scarabeiforme in vista laterale; focus stack.",
+          "pixels": "1400x1345",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Capo e pronoto verde metallico brillante, elitre color rame/bronzo.",
+        "Cinque ciuffetti di peli bianchi su ciascun lato dell'addome più un paio terminale.",
+        "La larva è un tipico scarabeide a C, crema, con capo bruno e tre paia di zampe toraciche."
+      ],
+      "recognition_note": "I ciuffi bianchi ai lati dell'addome permettono di separarla rapidamente da molti scarabeidi simili."
+    },
+    {
+      "scientific_name": "Xanthogaleruca luteola",
+      "course_name": "Xanthogaleruca luteola",
+      "common_name_it": "Galeruca / galerucella dell’olmo",
+      "order": "Coleoptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Chrysomelidae",
+      "aliases": [
+        "Galerucella luteola",
+        "Pyrrhalta luteola"
+      ],
+      "taxonomy_notes": "Sinonimi storici utili: Galerucella luteola e Pyrrhalta luteola.",
+      "id": "xanthogaleruca_luteola",
+      "images": [
+        {
+          "id": "xanthogaleruca_luteola_adult_01",
+          "file": "assets/insects/coleoptera/xanthogaleruca_luteola_adult_01.webp",
+          "stage": "adult",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Lucarelli",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Xanthogaleruca_luteola_1.JPG",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Adulto fotografato in Toscana.",
+          "pixels": "1400x1091",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        },
+        {
+          "id": "xanthogaleruca_luteola_larva_01",
+          "file": "assets/insects/coleoptera/xanthogaleruca_luteola_larva_01.webp",
+          "stage": "larva",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "jacilluch",
+          "source": "Wikimedia Commons / Flickr",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Xanthogaleruca_luteola_larva_-_Galeruca_del_olmo_(9550667900).jpg",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "notes": "Larva su foglia di olmo.",
+          "pixels": "1400x1050",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        },
+        {
+          "id": "xanthogaleruca_luteola_damage_01",
+          "file": "assets/insects/coleoptera/xanthogaleruca_luteola_damage_01.webp",
+          "stage": "damage",
+          "role": "supplementary_damage",
+          "quiz_default": false,
+          "author": "Georg Slickers",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Xanthogaleruca_luteola_20060905_530.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Larve e foglie di olmo fortemente scheletrizzate.",
+          "pixels": "1050x1400",
+          "acquired": "2026-08-14",
+          "source_batch": "coleoptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Adulto giallastro o verde-oliva con pronoto macchiato di nero.",
+        "Le elitre presentano bande longitudinali scure, soprattutto lungo i margini laterali.",
+        "Larve giallo-scure/nerastre con macchie o strisce longitudinali; sulle foglie di olmo producono una tipica scheletrizzazione."
+      ],
+      "recognition_note": "Foglia di olmo 'a pizzo' + larve scure è un contesto molto caratteristico."
+    },
+    {
+      "scientific_name": "Bactrocera dorsalis",
+      "course_name": "Bactrocera dorsalis",
+      "common_name_it": "Mosca orientale della frutta",
+      "order": "Diptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Tephritidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "bactrocera_dorsalis",
+      "images": [
+        {
+          "id": "bactrocera_dorsalis_adult_01",
+          "file": "assets/insects/diptera/bactrocera_dorsalis_adult_01.webp",
+          "stage": "adult",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Scott Bauer, USDA ARS",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bactrocera_dorsalis.jpg",
+          "license": "Public domain",
+          "license_url": "",
+          "notes": "Femmina mentre ovidepone in un frutto.",
+          "pixels": "1000x668",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        },
+        {
+          "id": "bactrocera_dorsalis_dorsal_01",
+          "file": "assets/insects/diptera/bactrocera_dorsalis_dorsal_01.webp",
+          "stage": "adult",
+          "role": "diagnostic",
+          "quiz_default": false,
+          "author": "Ken Walker / Museum Victoria",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bactrocera_dorsalis_dorsal.jpg",
+          "license": "CC BY 3.0 AU",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/au/deed.en",
+          "notes": "Vista dorsale diagnostica.",
+          "pixels": "720x540",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Tefritide con torace prevalentemente nero e vistose aree/bande gialle laterali; scutello giallo.",
+        "Addome giallo-arancio con disegno scuro spesso simile a una T.",
+        "Ali quasi trasparenti con una stretta banda scura lungo il margine costale."
+      ],
+      "recognition_note": "Fa parte di un complesso di specie molto simili: la diagnosi ufficiale dell'adulto usa una combinazione di numerosi caratteri morfologici; la larva da sola non permette una sicura identificazione di specie."
+    },
+    {
+      "scientific_name": "Bactrocera oleae",
+      "course_name": "Bactrocera oleae",
+      "common_name_it": "Mosca dell’olivo",
+      "order": "Diptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Tephritidae",
+      "aliases": [
+        "Dacus oleae"
+      ],
+      "taxonomy_notes": "Dacus oleae è un sinonimo storico frequente.",
+      "id": "bactrocera_oleae",
+      "images": [
+        {
+          "id": "bactrocera_oleae_adult_01",
+          "file": "assets/insects/diptera/bactrocera_oleae_adult_01.webp",
+          "stage": "adult",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Katja Schulz",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bactrocera_oleae_60003340.jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Adulto su foglia.",
+          "pixels": "750x1000",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        },
+        {
+          "id": "bactrocera_oleae_larva_01",
+          "file": "assets/insects/diptera/bactrocera_oleae_larva_01.webp",
+          "stage": "larva",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Istituto Professionale Agrario Cettolini",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bactrocera_oleae_g1.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Larva di III età nel frutto.",
+          "pixels": "1000x750",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        },
+        {
+          "id": "bactrocera_oleae_puparium_01",
+          "file": "assets/insects/diptera/bactrocera_oleae_puparium_01.webp",
+          "stage": "puparium",
+          "role": "supplementary",
+          "quiz_default": false,
+          "author": "Istituto Professionale Agrario Cettolini",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bactrocera_oleae_g3.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "notes": "Pupario.",
+          "pixels": "320x240",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Mosca piccola, bruno-giallastra, con scutello giallo ben evidente.",
+        "L'ala è quasi completamente trasparente e manca una vera banda costale; è tipica una piccola macchia scura vicino all'apice.",
+        "La presenza su oliva o la larva biancastra all'interno della polpa sono forti indizi contestuali."
+      ],
+      "recognition_note": "La piccola macchia apicale dell'ala è uno dei caratteri più utili dell'adulto."
+    },
+    {
+      "scientific_name": "Ceratitis capitata",
+      "course_name": "Ceratitis capitata",
+      "common_name_it": "Mosca mediterranea della frutta",
+      "order": "Diptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Tephritidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "ceratitis_capitata",
+      "images": [
+        {
+          "id": "ceratitis_capitata_adult_01",
+          "file": "assets/insects/diptera/ceratitis_capitata_adult_01.webp",
+          "stage": "adult",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Daniel Feliciano",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Ceratitis_capitata_-_adult.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Adulto.",
+          "pixels": "1000x750",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        },
+        {
+          "id": "ceratitis_capitata_larvae_01",
+          "file": "assets/insects/diptera/ceratitis_capitata_larvae_01.webp",
+          "stage": "larva",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Daniel Feliciano",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Ceratitis_capitata_-_larvae.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Larva nel frutto.",
+          "pixels": "1000x750",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        },
+        {
+          "id": "ceratitis_capitata_pupae_01",
+          "file": "assets/insects/diptera/ceratitis_capitata_pupae_01.webp",
+          "stage": "puparia",
+          "role": "supplementary",
+          "quiz_default": false,
+          "author": "Daniel Feliciano",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Ceratitis_capitata_-_pupae_2.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Pupari.",
+          "pixels": "1000x751",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Adulto molto variopinto, con ali trasparenti attraversate da caratteristiche bande giallo-brune.",
+        "Torace a mosaico di aree scure, chiare e giallastre; la metà apicale dello scutello è scura.",
+        "Nel maschio spiccano due setole orbitali modificate con estremità scura e dilatata; la femmina ha un ovopositore appuntito."
+      ],
+      "recognition_note": "La combinazione di ali disegnate e torace variegato rende l'adulto piuttosto caratteristico."
+    },
+    {
+      "scientific_name": "Drosophila suzukii",
+      "course_name": "Drosophila suzukii",
+      "common_name_it": "Drosophila dalle ali macchiate / moscerino dei piccoli frutti",
+      "order": "Diptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Drosophilidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "drosophila_suzukii",
+      "images": [
+        {
+          "id": "drosophila_suzukii_male_01",
+          "file": "assets/insects/diptera/drosophila_suzukii_male_01.webp",
+          "stage": "adult_male",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Martin Hauser",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:D_suzukii_male1.jpg",
+          "license": "CC BY 3.0 DE",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+          "notes": "Maschio adulto; carattere diagnostico evidente: macchia scura apicale sulle ali.",
+          "pixels": "1000x743",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        },
+        {
+          "id": "drosophila_suzukii_female_01",
+          "file": "assets/insects/diptera/drosophila_suzukii_female_01.webp",
+          "stage": "adult_female",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Martin Hauser",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:D_suzukii_female1.jpg",
+          "license": "CC BY 3.0 DE",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+          "notes": "Femmina adulta.",
+          "pixels": "854x628",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        },
+        {
+          "id": "drosophila_suzukii_comparison_01",
+          "file": "assets/insects/diptera/drosophila_suzukii_comparison_01.webp",
+          "stage": "adult_pair",
+          "role": "supplementary_comparison",
+          "quiz_default": false,
+          "author": "Shane F. McEvey / Australian Museum",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:DrosophilasuzukiiphotoMcEvey.jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Confronto maschio e femmina.",
+          "pixels": "1000x667",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        },
+        {
+          "id": "drosophila_suzukii_oviposition_scar_01",
+          "file": "assets/insects/diptera/drosophila_suzukii_oviposition_scar_01.webp",
+          "stage": "damage",
+          "role": "supplementary_damage",
+          "quiz_default": false,
+          "author": "Martin Hauser",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Drosophila_suzukii_Oviposition_scar.jpg",
+          "license": "CC BY 3.0 DE",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+          "notes": "Segni di ovideposizione e danni sui frutti.",
+          "pixels": "773x1000",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Piccolo moscerino giallo-bruno con occhi rossi.",
+        "Il maschio ha una vistosa macchia scura vicino all'apice del margine anteriore di ciascuna ala.",
+        "La femmina non ha le macchie alari, ma possiede un ovopositore robusto e seghettato, visibile con ingrandimento."
+      ],
+      "recognition_note": "Maschio e femmina vanno imparati separatamente: il carattere diagnostico cambia completamente."
+    },
+    {
+      "scientific_name": "Rhagoletis cerasi",
+      "course_name": "Rhagoletis cerasi",
+      "common_name_it": "Mosca delle ciliegie",
+      "order": "Diptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Tephritidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "rhagoletis_cerasi",
+      "images": [
+        {
+          "id": "rhagoletis_cerasi_adult_01",
+          "file": "assets/insects/diptera/rhagoletis_cerasi_adult_01.webp",
+          "stage": "adult",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Gilles San Martin",
+          "source": "Wikimedia Commons / Flickr",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Rhagoletis_cerasi_(50738351337).jpg",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "notes": "Adulto.",
+          "pixels": "1000x666",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        },
+        {
+          "id": "rhagoletis_cerasi_larva_01",
+          "file": "assets/insects/diptera/rhagoletis_cerasi_larva_01.webp",
+          "stage": "larva",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Holger Krisp",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Kirschfruchtfliege_Rhagoletis_cerasi_2.jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Larva.",
+          "pixels": "1000x667",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Adulto con corpo prevalentemente scuro e scutello giallo ben contrastato.",
+        "Ali trasparenti con un disegno molto netto di bande trasversali scure, compresa una banda apicale a L rovesciata.",
+        "La larva è un verme biancastro apode che si trova nella polpa delle ciliegie."
+      ],
+      "recognition_note": "Nel genere Rhagoletis il disegno delle ali è fondamentale per la diagnosi."
+    },
+    {
+      "scientific_name": "Rhagoletis completa",
+      "course_name": "Rhagoletis completa",
+      "common_name_it": "Mosca del noce",
+      "order": "Diptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Tephritidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "rhagoletis_completa",
+      "images": [
+        {
+          "id": "rhagoletis_completa_adult_01",
+          "file": "assets/insects/diptera/rhagoletis_completa_adult_01.webp",
+          "stage": "adult_female",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Ralf Huber",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:2023_07_15_Rhagoletis_completa_1a.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Femmina adulta.",
+          "pixels": "1000x932",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        },
+        {
+          "id": "rhagoletis_completa_larvae_01",
+          "file": "assets/insects/diptera/rhagoletis_completa_larvae_01.webp",
+          "stage": "larva",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Drahkrub",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Rhagoletis_completa-(drkb)-1.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "notes": "Larve della mosca del noce.",
+          "pixels": "1000x750",
+          "acquired": "2026-08-14",
+          "source_batch": "diptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Adulto giallo-brunastro con scutello giallo-biancastro.",
+        "Ali trasparenti con tre bande scure principali; la banda distale crea un evidente disegno triangolare/V verso il margine.",
+        "Le larve sono vermiformi, bianche e apode e si sviluppano nel mallo della noce."
+      ],
+      "recognition_note": "La combinazione del disegno alare e del mallo di noce infestato è molto utile per riconoscerla."
+    },
+    {
+      "scientific_name": "Cydia pomonella",
+      "course_name": "Cydia pomonella",
+      "common_name_it": "Carpocapsa / verme delle mele",
+      "order": "Lepidoptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Tortricidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "cydia_pomonella",
+      "images": [
+        {
+          "id": "cydia_pomonella_adult_01",
+          "file": "assets/insects/lepidoptera/cydia_pomonella_adult_01.webp",
+          "stage": "adult",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Ben Sale",
+          "source": "Wikimedia Commons / Flickr",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cydia_pomonella_(30163741937).jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/",
+          "notes": "Adulto principale.",
+          "pixels": "1000x743",
+          "acquired": "2026-08-14",
+          "source_batch": "lepidoptera_batch_01"
+        },
+        {
+          "id": "cydia_pomonella_larva_01",
+          "file": "assets/insects/lepidoptera/cydia_pomonella_larva_01.webp",
+          "stage": "larva",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Peggy Greb, USDA Agricultural Research Service",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cydia_pomonella_larva.jpg",
+          "license": "Public domain",
+          "license_url": "",
+          "notes": "Larva isolata.",
+          "pixels": "1000x661",
+          "acquired": "2026-08-14",
+          "source_batch": "lepidoptera_batch_01"
+        },
+        {
+          "id": "cydia_pomonella_damage_01",
+          "file": "assets/insects/lepidoptera/cydia_pomonella_damage_01.webp",
+          "stage": "larva_damage",
+          "role": "supplementary_damage",
+          "quiz_default": false,
+          "author": "Doug Wilson, USDA ARS",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Madige-Apfel-Frucht.jpg",
+          "license": "Public domain",
+          "license_url": "",
+          "notes": "Larva e danno su mela sezionata.",
+          "pixels": "1000x744",
+          "acquired": "2026-08-14",
+          "source_batch": "lepidoptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Adulto grigio con fini striature argentate sulle ali anteriori.",
+        "Vicino all'apice dell'ala è presente un tipico ocello bruno-porpora bordato da squame metalliche rame/dorate.",
+        "La larva matura è bianco-rosata con capo bruno e scava gallerie nei frutti di melo e pero, spesso con rosura ed escrementi."
+      ],
+      "recognition_note": "Il riflesso ramato/dorato dell'ocello apicale è molto utile per distinguerla da Cydia splendana."
+    },
+    {
+      "scientific_name": "Cydia splendana",
+      "course_name": "Cydia splendana",
+      "common_name_it": "Cidia / tortrice del castagno",
+      "order": "Lepidoptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Tortricidae",
+      "aliases": [],
+      "taxonomy_notes": "",
+      "id": "cydia_splendana",
+      "images": [
+        {
+          "id": "cydia_splendana_adult_01",
+          "file": "assets/insects/lepidoptera/cydia_splendana_adult_01.webp",
+          "stage": "adult",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "gailhampshire",
+          "source": "Wikimedia Commons / Flickr",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Chestnut_Tortrix,_Cydia_splendana_(48308117912).jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/",
+          "notes": "Adulto principale.",
+          "pixels": "1000x840",
+          "acquired": "2026-08-14",
+          "source_batch": "lepidoptera_batch_01"
+        },
+        {
+          "id": "cydia_splendana_larva_01",
+          "file": "assets/insects/lepidoptera/cydia_splendana_larva_01.webp",
+          "stage": "larva",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Patrick Clement",
+          "source": "Wikimedia Commons / Flickr",
+          "source_page": "https://commons.wikimedia.org/wiki/File:49.341_BF1260_Cydia_splendana,_larva_(10446559673).jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/",
+          "notes": "Larva trovata in una castagna.",
+          "pixels": "1000x750",
+          "acquired": "2026-08-14",
+          "source_batch": "lepidoptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Ali anteriori da grigio chiaro a grigio, con il terzo distale occupato da una grande macchia subtriangolare bruno-scura.",
+        "La macchia distale circonda un ocello violaceo; manca il tipico bordo ramato brillante di Cydia pomonella.",
+        "Larva matura giallo-biancastra o grigio-verde con capo giallo-bruno; è tipicamente rinvenuta in castagne e ghiande."
+      ],
+      "recognition_note": "La larva non possiede il pettine/fork anale; l'ospite castagno è un importante indizio pratico."
+    },
+    {
+      "scientific_name": "Grapholita funebrana",
+      "course_name": "Grapholita (Cydia) funebrana",
+      "common_name_it": "Tignola del susino",
+      "order": "Lepidoptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Tortricidae",
+      "aliases": [
+        "Cydia funebrana",
+        "Laspeyresia funebrana",
+        "Aspila funebrana"
+      ],
+      "taxonomy_notes": "Per l'esame mantenere in primo piano Grapholita (Cydia) funebrana; Aspila funebrana può comparire come classificazione recente.",
+      "id": "grapholita_funebrana",
+      "images": [
+        {
+          "id": "grapholita_funebrana_adult_01",
+          "file": "assets/insects/lepidoptera/grapholita_funebrana_adult_01.webp",
+          "stage": "adult",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Ben Sale",
+          "source": "Wikimedia Commons / Flickr",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Grapholita_funebrana_(52883809387).jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0/",
+          "notes": "Adulto principale.",
+          "pixels": "1000x794",
+          "acquired": "2026-08-14",
+          "source_batch": "lepidoptera_batch_01"
+        },
+        {
+          "id": "grapholita_funebrana_larva_01",
+          "file": "assets/insects/lepidoptera/grapholita_funebrana_larva_01.webp",
+          "stage": "larva",
+          "role": "primary",
+          "quiz_default": true,
+          "author": "Slimguy",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:2017_08_08_Grapholita_funebrana.jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "notes": "Larva esplicitamente identificata; originale a bassa risoluzione, non ingrandito.",
+          "pixels": "670x379",
+          "acquired": "2026-08-14",
+          "source_batch": "lepidoptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Piccola tortrice grigio-bruna con marcature argentate poco definite sulle ali anteriori e ocello poco evidente.",
+        "La larva matura è di colore rosso-rosa vivo, con capo bruno scuro e scudo protoracico giallo-bruno.",
+        "È presente un pettine anale di 4–10 denti; le larve si sviluppano soprattutto nei frutti di susino e altri Prunus."
+      ],
+      "recognition_note": "Anche questa specie può essere difficilmente separabile da Grapholita molesta sull'adulto fotografato: il contesto e, quando necessario, i genitali sono decisivi."
+    },
+    {
+      "scientific_name": "Grapholita molesta",
+      "course_name": "Grapholita (Cydia) molesta",
+      "common_name_it": "Tignola orientale del pesco",
+      "order": "Lepidoptera",
+      "suborder": "",
+      "superfamily": "",
+      "family": "Tortricidae",
+      "aliases": [
+        "Cydia molesta",
+        "Laspeyresia molesta",
+        "Aspila molesta"
+      ],
+      "taxonomy_notes": "Per l'esame mantenere in primo piano Grapholita (Cydia) molesta; Aspila molesta può comparire come classificazione recente.",
+      "id": "grapholita_molesta",
+      "images": [
+        {
+          "id": "grapholita_molesta_adult_01",
+          "file": "assets/insects/lepidoptera/grapholita_molesta_adult_01.webp",
+          "stage": "adult",
+          "role": "primary_diagnostic",
+          "quiz_default": true,
+          "author": "Simon Hinkley & Ken Walker, Museum Victoria",
+          "source": "Wikimedia Commons / PaDIL",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Grapholita_molesta_dorsal.jpg",
+          "license": "CC BY 3.0 AU",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/au/",
+          "notes": "Adulto diagnostico in vista dorsale; originale a bassa risoluzione, non ingrandito.",
+          "pixels": "720x540",
+          "acquired": "2026-08-14",
+          "source_batch": "lepidoptera_batch_01"
+        },
+        {
+          "id": "grapholita_molesta_life_cycle_01",
+          "file": "assets/insects/lepidoptera/grapholita_molesta_life_cycle_01.webp",
+          "stage": "life_cycle_plate",
+          "role": "supplementary_study",
+          "quiz_default": false,
+          "author": "Art Cushman / USDA-Smithsonian",
+          "source": "Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Grapholitha_molesta.jpg",
+          "license": "Public domain",
+          "license_url": "",
+          "notes": "Tavola biologica con adulto, pupa, larve e danno su germoglio/frutto. Materiale di studio, non fotografia d'esame.",
+          "pixels": "613x1000",
+          "acquired": "2026-08-14",
+          "source_batch": "lepidoptera_batch_01"
+        }
+      ],
+      "recognition_cues": [
+        "Piccola tortrice grigio-bruna opaca; sulle ali anteriori è presente una fila di piccoli punti neri verso apice e margine esterno.",
+        "L'ocello alare è poco evidente o quasi assente, rendendo l'adulto visivamente poco appariscente.",
+        "La larva matura è rosata, con capo e scudo protoracico giallo-bruni e un pettine anale di circa 5 denti; attacca germogli e frutti di pesco."
+      ],
+      "recognition_note": "L'adulto è molto simile a Grapholita funebrana e ad altre Grapholitini: per la conferma può essere necessario l'esame dei genitali."
+    }
+  ],
+  "comparison_cards": [
+    {
+      "id": "comparison_thysanoptera_01",
+      "title": "Thrips tabaci ↔ Frankliniella occidentalis",
+      "species": [
+        "thrips_tabaci",
+        "frankliniella_occidentalis"
+      ],
+      "order": "Thysanoptera",
+      "purpose": "Confronto visivo tra due tripidi del corso",
+      "image": {
+        "id": "thysanoptera_comparison_01",
+        "file": "assets/insects/thysanoptera/thysanoptera_comparison_01.webp",
+        "stage": "adult",
+        "role": "comparison",
+        "quiz_default": false,
+        "author": "Alton N. Sparks, Jr., University of Georgia, Bugwood.org",
+        "source": "Wikimedia Commons / Bugwood",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Thrips_tabaci,_Frankliniella_occidentalis.jpg",
+        "license": "CC BY 3.0 US",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/us/",
+        "notes": "Carta comparativa: T. tabaci a sinistra, F. occidentalis a destra.",
+        "pixels": "512x768",
+        "acquired": "2026-08-14",
+        "source_batch": "thysanoptera_batch_01"
+      }
+    },
+    {
+      "id": "comparison_drosophila_suzukii_sexes",
+      "title": "Drosophila suzukii: maschio ↔ femmina",
+      "species": [
+        "drosophila_suzukii"
+      ],
+      "order": "Diptera",
+      "purpose": "Confronto tra i sessi; il maschio presenta la tipica macchia scura apicale sulle ali.",
+      "image_ref": "drosophila_suzukii_comparison_01"
+    },
+    {
+      "id": "comparison_cydia_pomonella_splendana",
+      "title": "Cydia pomonella ↔ Cydia splendana",
+      "species": [
+        "cydia_pomonella",
+        "cydia_splendana"
+      ],
+      "order": "Lepidoptera",
+      "purpose": "Allenamento comparativo tra due Tortricidae del corso.",
+      "generated_from_existing_species_images": true
+    },
+    {
+      "id": "comparison_grapholita_molesta_funebrana",
+      "title": "Grapholita molesta ↔ Grapholita funebrana",
+      "species": [
+        "grapholita_molesta",
+        "grapholita_funebrana"
+      ],
+      "order": "Lepidoptera",
+      "purpose": "Allenamento comparativo tra due tortricidi molto simili.",
+      "generated_from_existing_species_images": true
+    },
+    {
+      "id": "comparison_bemisia_trialeurodes",
+      "title": "Bemisia tabaci ↔ Trialeurodes vaporariorum",
+      "species": [
+        "bemisia_tabaci",
+        "trialeurodes_vaporariorum"
+      ],
+      "order": "Hemiptera",
+      "purpose": "Confronto tra i due Aleyrodidae presenti nel corso.",
+      "generated_from_existing_species_images": true
+    },
+    {
+      "id": "comparison_cacopsylla_pyri_pyricola",
+      "title": "Cacopsylla pyri ↔ Cacopsylla pyricola",
+      "species": [
+        "cacopsylla_pyri",
+        "cacopsylla_pyricola"
+      ],
+      "order": "Hemiptera",
+      "purpose": "Confronto diagnostico tra le due psille del pero.",
+      "generated_from_existing_species_images": true
+    }
+  ],
+  "pending_recoveries": [
+    {
+      "species": "Hyalesthes obsoletus",
+      "wanted": "ninfa fotografica ben identificata",
+      "priority": "media"
+    },
+    {
+      "species": "Scaphoideus titanus",
+      "wanted": "ninfa fotografica con marcature scure diagnostiche",
+      "priority": "media"
+    },
+    {
+      "species": "Cacopsylla melanoneura",
+      "wanted": "ninfa fotografica libera e ben determinata",
+      "priority": "bassa"
+    },
+    {
+      "species": "Cacopsylla picta",
+      "wanted": "ninfa fotografica libera e ben determinata",
+      "priority": "bassa"
+    },
+    {
+      "species": "Cacopsylla pruni",
+      "wanted": "ninfa fotografica libera e ben determinata",
+      "priority": "bassa"
+    },
+    {
+      "species": "Cacopsylla pyri",
+      "wanted": "foto adulta ad alta risoluzione e ninfa ben determinata",
+      "priority": "media"
+    },
+    {
+      "species": "Cacopsylla pyricola",
+      "wanted": "fotografia moderna libera dell'adulto e, idealmente, della ninfa",
+      "priority": "alta"
+    },
+    {
+      "species": "Cassida vittata",
+      "wanted": "larva fotografica sicuramente attribuita alla specie",
+      "priority": "alta"
+    },
+    {
+      "species": "Bactrocera dorsalis",
+      "wanted": "larva fotografica libera e ben documentata",
+      "priority": "alta"
+    },
+    {
+      "species": "Grapholita molesta",
+      "wanted": "fotografia moderna libera e ben documentata della larva",
+      "priority": "alta"
+    }
+  ],
+  "licensing_note": "Ogni immagine di terzi mantiene la propria licenza originale. Le immagini sono escluse dalla licenza generale del codice/contenuti originali dell'app.",
+  "recognition_section": {
+    "title": "Come riconoscerla",
+    "description": "2–4 indizi visivi o contestuali per ogni taxon, con avvertenze quando la determinazione da fotografia non è sicura.",
+    "species_covered": 38
+  }
+}

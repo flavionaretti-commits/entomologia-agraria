@@ -1,0 +1,55 @@
+{
+  "Thysanoptera": {
+    "mnemonic": "FRANGE",
+    "recognition": [
+      "Corpo molto piccolo e allungato",
+      "Ali strette con lunghe frange di setole",
+      "Apparato boccale pungente-succhiante asimmetrico"
+    ],
+    "development": "Neometabolo: uovo → larva I → larva II → propupa → pupa → adulto",
+    "oral_answer": "È un Tisanottero. Sono insetti molto piccoli e allungati, caratterizzati da ali strette provviste di lunghe frange di setole. Hanno apparato boccale pungente-succhiante asimmetrico. Lo sviluppo è neometabolo, con due stadi giovanili alimentanti seguiti da propupa e pupa inattive prima dell'adulto."
+  },
+  "Hemiptera": {
+    "mnemonic": "ROSTRO",
+    "recognition": [
+      "Apparato boccale pungente-succhiante con rostro",
+      "Stiletti mandibolari e mascellari",
+      "Heteroptera: ali anteriori tipicamente trasformate in emielitre",
+      "Auchenorrhyncha: forme mobili o saltatrici, ali spesso a tetto",
+      "Sternorrhyncha: psille, aleurodidi, afidi e cocciniglie"
+    ],
+    "development": "Generalmente eterometabolo/emi-metabolo: uovo → ninfa → adulto, senza vera pupa",
+    "oral_answer": "È un Emittero. Gli Emitteri sono caratterizzati soprattutto dall'apparato boccale pungente-succhiante, costituito da stiletti mandibolari e mascellari contenuti nel rostro. Lo sviluppo è generalmente eterometabolo, quindi senza una vera pupa. Negli Heteroptera le ali anteriori sono tipicamente trasformate in emielitre, mentre nei gruppi tradizionalmente riuniti negli Homoptera le ali sono generalmente più uniformi e spesso disposte a tetto.",
+    "taxonomy_note": "Homoptera è una classificazione tradizionale utile per il corso; nella sistematica moderna Auchenorrhyncha e Sternorrhyncha sono trattati all'interno degli Hemiptera."
+  },
+  "Coleoptera": {
+    "mnemonic": "ELITRE",
+    "recognition": [
+      "Ali anteriori trasformate in elitre sclerificate",
+      "Ali posteriori membranose",
+      "Apparato boccale masticatore nell'adulto e nella larva"
+    ],
+    "development": "Olometabolo: uovo → larva → pupa → adulto",
+    "oral_answer": "È un Coleottero. L'ordine è caratterizzato dalle ali anteriori trasformate in elitre sclerificate, che proteggono le ali posteriori membranose utilizzate per il volo. L'apparato boccale è masticatore sia nell'adulto sia nella larva. Sono insetti olometaboli, con sviluppo uovo, larva, pupa e adulto."
+  },
+  "Diptera": {
+    "mnemonic": "BILANCIERI",
+    "recognition": [
+      "Un solo paio di ali membranose funzionali",
+      "Ali posteriori trasformate in bilancieri",
+      "Nei Brachycera larve spesso vermiformi, apode e con capo ridotto"
+    ],
+    "development": "Olometabolo: uovo → larva → pupa → adulto; la pupa è spesso contenuta in un pupario",
+    "oral_answer": "È un Dittero. Gli adulti hanno un solo paio di ali membranose funzionali; le ali posteriori sono trasformate in bilancieri, organi importanti per l'equilibrio durante il volo. Sono olometaboli, quindi presentano uovo, larva, pupa e adulto. Nei Brachycera le larve sono tipicamente vermiformi e apode, con capo molto ridotto."
+  },
+  "Lepidoptera": {
+    "mnemonic": "SQUAME",
+    "recognition": [
+      "Due paia di ali generalmente ricoperte di squame",
+      "Adulto con apparato boccale succhiante-sifonante / spiritromba",
+      "Larva (bruco) con apparato masticatore, tre paia di zampe toraciche e pseudozampe addominali"
+    ],
+    "development": "Olometabolo: uovo → larva → pupa → adulto",
+    "oral_answer": "È un Lepidottero. Gli adulti possiedono generalmente due paia di ali ricoperte di squame e un apparato boccale succhiante-sifonante formato dalla spiritromba. Sono olometaboli, quindi presentano uovo, larva, pupa e adulto. La larva è il bruco, con apparato boccale masticatore, tre paia di zampe toraciche e pseudozampe addominali."
+  }
+}
